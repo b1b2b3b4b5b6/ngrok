@@ -1,0 +1,6 @@
+server_addr: lumoschen.cn:4443
+tunnels:
+ temp:
+  remote_port: 1322
+  proto:
+   tcp: 22 
