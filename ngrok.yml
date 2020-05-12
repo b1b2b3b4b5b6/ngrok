@@ -1,4 +1,4 @@
-server_addr: lumoschen.cn:4443
+server_addr: lumosblog.cn:4443
 tunnels:
  amd_ubuntu:               #给amd虚拟机ubuntu用的
   remote_port: 10022
