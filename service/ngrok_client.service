@@ -3,7 +3,7 @@ Description=ngrok_client
 After=network.target 
 
 [Service]
-ExecStart=/root/app/ngrok/ngrok/bin/ngrok -config=/root/app/ngrok/ngrok.yml start amd_ubuntu
+ExecStart=/root/app/ngrok/ngrok/bin/ngrok -config=/root/app/ngrok/ngrok.yml start-all
 ExecStop=/bin/kill -KILL $MAINPID
 Type=simple
 KillMode=control-group
